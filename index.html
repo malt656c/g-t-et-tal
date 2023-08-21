@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <div class="wrapper">
+        <h1></h1>
+        <form action=""  onsubmit="event.preventDefault(); guessNumber()">
+          <label for="guess">guess a number between 0 and 100</label>
+          <input type="number" name="guess" />
+        </form>
+        <button onclick="guessNumber()">guess</button>
+      </div>
+      <img src="chicken_dinner.gif" alt="" />
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
